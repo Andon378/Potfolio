@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        body{
+            background-image: url(./img/contact.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            
+        }
+
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        th, td {
+          padding: 8px;
+          text-align: left;
+          border-bottom: 1px solid black;
+          font-size: 1.8rem;
+        }
+        p{
+            font-size: 1.2rem;
+            text-align: center;
+        }
+        h2{
+            
+            font-size: 2.1rem;
+            text-align: center;
+            
+        }
+        
+        tr:hover {background-color: coral;}
+        
+        .cta{
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    
+    letter-spacing: .1rem;
+    transition: 3s ease background-color;
+    
+}
+.cta:hover{
+    color:white;
+    background-color: crimson;
+}
+
+#container{
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 1024px) {
+          body { margin: 0; padding: 0; } 
+          th{display: flex;}
+          td{display: flex;}
+}
+
+        </style>
+</head>
+<body>
+    <div id="container">
+    <a href="index.html" class="cta">Home</a>
+    
+        
+       <h2>Contacts  Table</h2>
+    
+    
+
+<p>I will be very happy if you contact me and discuss a job as a Web Developer.</p>
+</div>
+<table>
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Email</th>
+  </tr>
+  <tr>
+    <td>Aleksandar</td>
+    <td>Andonov</td>
+    <td>andonov.alex79@gmail.com</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+
+</body>
+</html>
